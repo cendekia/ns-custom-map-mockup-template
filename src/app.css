@@ -1,0 +1,53 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+@import '~nativescript-theme-core/css/core.light.css';
+
+.radius {
+	border-radius: 10;
+}
+.radiusBorder {
+	border-radius: 14; 
+	border-width: 2;
+	border-color: white;
+}
+
+.menuScroll {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.marginHorizontal {
+	margin-left: 20;
+	margin-right: 20;
+}
+
+.menu {
+	border-radius: 14;
+	padding: 5;
+	margin-top: 10;
+	margin-bottom: 10;
+	margin-left: 10;
+	width: 70;
+	height: 70;
+	background-color: white;
+	text-align: center;
+}
+.menu-icon {
+	height: 40;
+}
+.menu-label {
+	margin-top: 5;
+	font-size: 11;
+	color: gray;
+}
+.menu-last {
+	margin-right: 30
+}
